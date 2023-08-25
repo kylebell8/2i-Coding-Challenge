@@ -1,4 +1,4 @@
-*Assumptions
+# Assumptions
 
 1. Sorted Input: The array 'nums' passed to the function is sorted in ascending order (stated in problem description)
 2. Whole Numbers: The input array only contains whole numbers as stated in the problem requirement
