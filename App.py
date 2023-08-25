@@ -3,7 +3,6 @@
 # Name: Kyle Bell
 
 def find_pairs(nums, X):
-
     # Function to find pairs that sum up to a target value X in a sorted list of integers.
     # Parameters:
     #   nums: List[int] - A sorted array of whole numbers
