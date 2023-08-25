@@ -1,10 +1,12 @@
-#make small piece of code repeating numbers 1 - 10
+#Make something more complicated, make an array of 10 random numbers and print out the mean of the array.
+#Make a function that takes an array as an argument and returns the mean of the array.
 
-for i in range(1,11):
-    print(i)
+import numpy as np
 
-#make small piece of code repeating numbers 1 - 10 in reverse order
+def mean(array):
+    return np.mean(array)
 
-for i in range(10,0,-1):
-    print(i)
-    
+array = np.random.rand(10)
+print(array)
+print(mean(array))
+
