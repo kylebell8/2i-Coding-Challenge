@@ -3,12 +3,15 @@
 # Name: Kyle Bell
 
 def find_pairs(nums, X):
-    """
-    :param nums: List[int] - A sorted array of whole numbers
-    :param X: int - The target sum
-    :return: int - The count of pairs that sum to X
-    """
-  # Initialize count to 0, which will hold the number of pairs that sum to X
+
+    # Function to find pairs that sum up to a target value X in a sorted list of integers.
+    # Parameters:
+    #   nums: List[int] - A sorted array of whole numbers
+    #   X: int - The target sum
+    # Returns:
+    #   int - The count of pairs that sum to X
+
+    # Initialize count to 0, which will hold the number of pairs that sum to X
     count = 0
     
     # Initialize an empty list named pairs that will store the pairs of numbers that sum to X
