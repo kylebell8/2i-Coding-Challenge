@@ -75,7 +75,6 @@ print(f"Array: [1, 1, 2, 2], Target Sum: 3, Pairs: {count}, Pairs List: {pairs}"
 count, pairs = find_pairs([], 5)
 print(f"Array: [], Target Sum: 5, Pairs: {count}, Pairs List: {pairs}")  
 
-
 #Desired Output
 #Array: [3, 4, 5, 6], Target Sum: 1, Pairs: 0, Pairs List: []
 #Array: [0, 15, 32, 2000, 15000], Target Sum: 15, Pairs: 1, Pairs List: [(0, 15)]    
